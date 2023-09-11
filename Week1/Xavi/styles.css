@@ -1,0 +1,99 @@
+body {
+    margin: 80px;
+    padding-top: 100px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.confirm-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, green, greenyellow);
+    border-radius: 50px;
+    border-color: darkgreen;
+    border-width: 3px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.confirm-button:hover {
+    scale: 110%;
+    box-shadow: 0 0 5px 5px #69e0489e;
+}
+
+.confirm-button:active {
+    color: greenyellow;
+    box-shadow: 0 0 5px 5px white;
+}
+
+.remove-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, red, rgb(80, 28, 17));
+    border-radius: 50px;
+    border-color: rgb(113, 0, 0);
+    border-width: 3px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.remove-button:hover {
+    scale: 110%;
+    box-shadow: 0 0 5px 5px rgba(217, 70, 12, 0.612);
+}
+
+.remove-button:active {
+    color: lightpink;
+    box-shadow: 0 0 5px 5px white;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, blue, cyan);
+    border-radius: 50px;
+    border-color: rgb(6, 0, 72);
+    border-width: 3px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.search-button:hover {
+    scale: 110%;
+    box-shadow: 0 0 5px 5px lightskyblue;
+}
+
+.search-button:active {
+    color: blueviolet;
+    box-shadow: 0 0 5px 5px white;
+}
+
+.add-button {
+    padding: 10px 20px;
+    background-image: linear-gradient(to right, yellow, orange);
+    border-radius: 50px;
+    border-color: darkgoldenrod;
+    border-width: 3px;
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.add-button:hover {
+    scale: 110%;
+    box-shadow: 0 0 5px 5px gold;
+}
+
+.add-button:active {
+    color: white;
+    box-shadow: 0 0 5px 5px white;
+}
+
+.icon {
+    margin-right: 25px;
+}
